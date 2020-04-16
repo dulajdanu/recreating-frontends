@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    height: 65px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    display: block;
+    box-sizing: border-box;
+    /* padding-top: 30px; */
+    padding-top: 16.25px;
+    padding-right: 24px;
+    padding-bottom: 16.25px;
+    padding-left: 24px;
+}
+
+header #logo {
+    vertical-align: middle;
+    /* background-color: red; */
+    width: 127px;
+    height: 32px;
+    border: 0px;
+}
+
+header #uniLogo {
+    /* vertical-align: middle; */
+    /* background-color: red; */
+    max-width: 300px;
+    max-height: 25px;
+    border-left: 2px solid rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    margin-left: 24px;
+    padding-left: 24px;
+    display: inline-block;
+}
+
+#uniLogo img {
+    vertical-align: middle;
+    max-width: 256px;
+    max-height: 32px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+header .exploreButton {
+    top: 0;
+    width: 100px;
+    line-height: 36px;
+    position: relative;
+    left: 25px;
+    padding-left: 12px;
+    background-color: rgb(114, 114, 228);
+    box-sizing: border-box;
+}
+
+.exploreButton span {
+    color: white;
+    font-weight: bold;
+}
+
+.searchBar {
+    width: 450px;
+    height: 40px;
+    /* position: relative; */
+    display: inline-block;
+    margin-left: 50px;
+    /* background-color: rebeccapurple; */
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(0, 0, 0, .12);
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    border-top: 1px solid rgba(0, 0, 0, .12);
+}
+
+.searchBar input {
+    border: 0px;
+}
+
+.searchBut {
+    height: 40px;
+    width: 30px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+    position: relative;
+    left: 0px;
+}
